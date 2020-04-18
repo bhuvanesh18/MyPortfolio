@@ -1,0 +1,10 @@
+.is-navOpen{
+  overflow: hidden;
+}
+nav.nav {
+    color: #fff;
+}
+#nav-header{
+  background-color: #00BDFF;
+  font-weight:900;
+}
