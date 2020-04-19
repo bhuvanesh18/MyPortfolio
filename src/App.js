@@ -1,24 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/Header';
+import SideNav from './components/SideNav';
 import Home from './components/Home';
 import Page1 from './components/Page1';
 import Page2 from './components/Page2';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   return (
-  <Router>
     <div className="App">
       <Header />
-      <Home />
+      <SideNav />
+      <Home />  
+      <Skills />
       <Projects />
-      <Switch>
-      <Route path="/page1" exact component={Page1} />
-      <Route path="/page2" exact component={Page2} />
-      </Switch>
+      <Page1 />
+      <Page2 />
     </div>
-  </Router>
   );
 }
 
