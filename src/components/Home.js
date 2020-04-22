@@ -15,7 +15,7 @@ function Home() {
                         </div>
                         <div className="col-3">
                             <div className="media">
-                                <img src={ProfilePic} className="rounded-lg shadow-lg" alt='Bhuvaneshwaran' width="80%"/>
+                                <img src={ProfilePic} className="rounded-lg shadow" alt='Bhuvaneshwaran' width="80%"/>
                             </div>
                         </div>
                     </div>

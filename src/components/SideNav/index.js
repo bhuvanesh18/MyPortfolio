@@ -11,7 +11,7 @@ class index extends Component {
                 <SideNavProfile />
                 <SideNavMenus />
                 <DarkTheme />
-                <hr/>
+                <hr className="mx-4"/>
                 <p className="text-center text-muted">Version - 1.0</p>
             </nav>
         )
