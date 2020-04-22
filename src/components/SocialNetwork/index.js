@@ -8,9 +8,9 @@ function index() {
         <Section id="my-social-network" title="My Social Network">
             <div className="d-flex">
                 <img src={Man} className="img-fluid" alt='Bhuvaneshwaran_png_creation'/>
-                <div className="px-2 align-self-center">
+                <div className="align-self-center">
                     <p  className="text-center text-primary lead py-2">Click the bellow icons to Connect with me.</p>
-                    <div className="row row-cols-2 row-cols-md-6 justify-content-center">
+                    <div className="row row-cols-3 row-cols-md-6 justify-content-center">
                         <SocialMediaCards />
                     </div>
                 </div>
