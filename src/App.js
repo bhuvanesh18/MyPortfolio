@@ -10,7 +10,7 @@ import Resume from './components/Resume/index';
 import SocialNetwork from './components/SocialNetwork/index';
 import ContactDetails from './components/ContactDetails/index';
 import Footer from './components/Footer';
-
+import SharableButton from './components/SharableButton/index';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
       <SocialNetwork />
       <ContactDetails />
       <Footer />
+      <SharableButton />
     </div>
   );
 }
