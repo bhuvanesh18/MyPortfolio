@@ -15,21 +15,20 @@ class index extends Component {
 
     _shareClickHandler(){
         $('#sharebutton').on('click',function(){
-            console.log('Share Button Clicked!');
-            const title = window.document.title;
-            const url = window.document.location.href;
-
             if(navigator.share){
                 console.log('Navigator Works');
                 navigator.share({
-                    title : `${title}`,
-                    url : `${url}`
+                    title: 'Bhuvaneshwaran | Portfolio Website',
+                    text: 'See all My Internship works, Projects, Certificates and My Resume in the website. If you have any query, feel free to contact me and I am glad to answer.Thankyou',
+                    url: 'https://bhuvaneshwaran.netlify.app/'
                 }).then( () => {
-                    console.log('Thanks for sharing!!!');
+                    console.log('Thanks for sharing!');
+                    alert('Thanks for sharing!');
                 })
                 .catch(console.error);
             }else{
-                console.log('Nagivator Not Working!!');
+                console.log('Nagivator Not Working!');
+                alert('Sorry, Sharing Does Not Support In This Browser!');
             }
 
         })
