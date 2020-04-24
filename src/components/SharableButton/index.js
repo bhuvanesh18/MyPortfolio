@@ -39,7 +39,7 @@ class index extends Component {
             <React.Fragment>
                 <div className="fixed-bottom mb-3">
                     <div className="d-flex justify-content-end mr-2">
-                        <img src={ShareLogo} alt="Share Logo" className="btn" role="button" type="button" id="sharebutton" width="80px" height="70px"/>
+                        <img src={ShareLogo} alt="Share Logo" id="sharebutton" width="50px" height="50px"/>
                     </div>
                 </div>
             </React.Fragment>
