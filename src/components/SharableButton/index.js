@@ -15,8 +15,8 @@ class index extends Component {
 
     _shareClickHandler(){
         $('#sharebutton').on('click',function(){
-            const title = 'Bhuvaneshwaran | Portfolio Website';
-            const text = 'See all My Internship works, Projects, Certificates and My Resume in the website. If you have any query, feel free to contact me and I am glad to answer.\n\nWebsite Link:\n';
+            const title = 'Bhuvi | Portfolio Website';
+            const text = `Bhuvaneshwaran | Portfolio website.\n\nSee all My Internship works, Projects, Certificates and My Resume in the website. If you have any query, feel free to contact me and I am glad to answer.\n\nThanks and regards,\nBhuvaneshwaran\n\nWebsite Link:\n`;
             const url = 'https://bhuvaneshwaran.netlify.app';
             if(navigator.share){
                 console.log('Navigator Works');
