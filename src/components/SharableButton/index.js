@@ -15,12 +15,15 @@ class index extends Component {
 
     _shareClickHandler(){
         $('#sharebutton').on('click',function(){
+            const title = 'Bhuvaneshwaran | Portfolio Website';
+            const text = 'See all My Internship works, Projects, Certificates and My Resume in the website. If you have any query, feel free to contact me and I am glad to answer.\n\nWebsite Link:\n';
+            const url = 'https://bhuvaneshwaran.netlify.app';
             if(navigator.share){
                 console.log('Navigator Works');
                 navigator.share({
-                    title: 'Bhuvaneshwaran | Portfolio Website',
-                    text: 'See all My Internship works, Projects, Certificates and My Resume in the website. If you have any query, feel free to contact me and I am glad to answer.Thankyou',
-                    url: 'https://bhuvaneshwaran.netlify.app/'
+                    title: `${title}`,
+                    text: `${text}`,
+                    url: `${url}`
                 }).then( () => {
                     console.log('Thanks for sharing!');
                     alert('Thanks for sharing!');
@@ -28,7 +31,7 @@ class index extends Component {
                 .catch(console.error);
             }else{
                 console.log('Nagivator Not Working!');
-                alert('Sorry, Sharing Does Not Support In This Browser!');
+                alert(`Sorry, Sharing Does Not Support In This Browser!\n\nNote:\n      Use the chrome or firefox browser to open this website or you can manualy copy the website link which is given bellow for sharing!\n\nWebsite Name - ${title}\n\nWebsite Link - ${url}`);
             }
 
         })
