@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from './../img/6.jpg';
+import ProfilePic from './../img/Bhuvaneshwaran.jpg';
 
 function Home() {
     return (
