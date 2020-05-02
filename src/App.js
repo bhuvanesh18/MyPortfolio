@@ -15,6 +15,7 @@ import SharableButton from './components/SharableButton/index';
 function App() {
   return (
     <div className="App">
+      {/*
       <Header />
       <SideNav />
       <Home />  
@@ -27,6 +28,10 @@ function App() {
       <ContactDetails />
       <Footer />
       <SharableButton />
+      */}
+      <center>
+        <h1>This website is Under Development</h1>
+      </center>
     </div>
   );
 }

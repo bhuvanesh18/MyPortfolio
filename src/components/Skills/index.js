@@ -34,7 +34,7 @@ function index() {
                         <h6 className="text-primary">Backend</h6>
                     </div>
                     <div className="col-6">
-                        <p>PHP, SOL, MySQL</p>
+                        <p>PHP, SQL, MySQL</p>
                     </div>
                 </div>
             </div>
