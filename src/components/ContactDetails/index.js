@@ -5,7 +5,7 @@ function index() {
     return (
         <Section id="contact-me" title="Contact Me">
             <div className="text-center py-2">
-                <h6>Name :<span className="lead">M Bhuvaneshwaran</span></h6>
+                <h6>Name : <span className="lead">M Bhuvaneshwaran</span></h6>
                 <h6>Location : <span className="lead">Dindigul, TamilNadu, India</span></h6>
                 <h6><span>Phone : </span><a href="tel:+919500352849" className="lead">9500352849</a></h6>
                 <div className="d-flex justify-content-center my-4">
