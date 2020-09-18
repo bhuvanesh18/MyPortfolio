@@ -23,11 +23,9 @@ function SideNavMenus() {
                 <a className="nav-link d-inline" href="#my-certificates">My Certificates</a>
                 <span className="badge badge-dark">8</span>
             </li>
-            {/*
             <li className="nav-item">
                 <a className="nav-link" href="#my-resume">My Resume</a>
             </li>
-            */}
             <li className="nav-item">
                 <a className="nav-link" href="#my-social-network">My Social Network</a>
             </li>
