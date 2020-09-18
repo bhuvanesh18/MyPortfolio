@@ -13,6 +13,7 @@ function ProjectModals() {
             <Modal modal_id="twitter_modal" project_name="Twitter Tweet Analysis" link="https://twitter-tweet-analysis.herokuapp.com/" description="This website is my first ML project. I created this website for my team in ML training program conducted by my department in this third year. This is developed on python Django framework."/>
             <Modal modal_id="tuvalabs_style_react_doc_modal" project_name="Tuvalabs Style-React Document" link="https://tuvalabs-style.netlify.app" description="This is my Intern work in Tuvalabs company.This website is used as the documentation for the created UI style of the Tuvalabs company. This is my first ReactJs project."/>
             <Modal modal_id="portfolio_modal" project_name="Portfolio Website" link="https://bhuvaneshwaran.netlify.app" description="This is my official portfolio website, Developed on ReactJs. It has Dark theme switch feature and swiping sidenav feature."/>
+            <Modal modal_id="mernlogin_modal" project_name="MERN Login" link="https://mern-loginsystem.herokuapp.com" description="This is simple login webste, Developed on MERN stack with JWT authentication."/>
         </React.Fragment>
     )
 }
